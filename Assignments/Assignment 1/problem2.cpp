@@ -23,7 +23,7 @@ void printList(const Park parks[], int length) {
 int main(int argc, char const *argv[]) {
   int len = 0;
   Park parks[100];
-  ifstream ifile("park.csv");
+  ifstream ifile(argv[1]);
   string line;
   string pname = "";
   string pstate = "";
@@ -59,9 +59,9 @@ int main(int argc, char const *argv[]) {
   }
   printList(parks, len-1);
   ifile.close();
-  ofstream ofile("output.csv");
+  ofstream ofile(argv[2]);
   for (int i = 0; i < len-1; i++) {
-    if (parks[i].area > stoi(argv[1])) {
+    if (parks[i].area > stoi(argv[3])) {
       ofile << parks[i].parkname << "," << parks[i].state << "," << parks[i].area << endl;
     }
   }
