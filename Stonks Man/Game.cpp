@@ -201,6 +201,8 @@ void Game::startGame() {
   addRoad(cities[4]->name, cities[5]->name, 4, 25); //4-5
   addRoad(cities[4]->name, cities[7]->name, 3, 100); //4-7
   addRoad(cities[5]->name, cities[6]->name, 4, 25); //5-6
+  //Map
+  displayMap();
 }
 
 void Game::changeCity(string prev, string newc) {
