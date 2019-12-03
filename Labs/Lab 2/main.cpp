@@ -1,5 +1,5 @@
 #include<iostream>
-#include "swap.h"
+#include "swap.cpp"
 
 using namespace std;
 int main(int argc, char const *argv[])

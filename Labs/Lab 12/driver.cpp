@@ -1,4 +1,4 @@
-#include "MinHeap.hpp"
+#include "MinHeap.cpp"
 using namespace std;
 
 int main()

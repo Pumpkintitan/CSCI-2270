@@ -1,6 +1,6 @@
 // Driver program
 #include<iostream>
-#include "hash.hpp"
+#include "hash.cpp"
 using namespace std;
 
 // GOLD TODO Complete this function

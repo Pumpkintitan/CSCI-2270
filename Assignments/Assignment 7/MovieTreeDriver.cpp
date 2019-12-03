@@ -1,4 +1,4 @@
-#include "MovieTree.hpp"
+#include "MovieTree.cpp"
 #include <iostream>
 #include <string>
 #include <fstream>

@@ -1,5 +1,5 @@
 #include <iostream>
-#include "tree.hpp"
+#include "tree.cpp"
 using namespace std;
 #define COUNT 10
 

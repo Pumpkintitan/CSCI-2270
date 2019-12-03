@@ -2,7 +2,7 @@
 #include <string>
 #include <sstream>
 #include <fstream>
-#include "MovieTree.hpp"
+#include "MovieTree.cpp"
 using namespace std;
 
 int main(int argc, char const *argv[]) {

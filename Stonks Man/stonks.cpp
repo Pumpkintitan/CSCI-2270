@@ -2,6 +2,8 @@
 #include <string>
 #include <vector>
 #include "Game.hpp"
+#include "Game.cpp"
+#include "Player.cpp"
 
 using namespace std;
 
