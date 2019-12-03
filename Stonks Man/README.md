@@ -7,8 +7,7 @@
 *The interactive travel and stock trading game*
 
 ---
-
-##Compilation Instructions:
+## Compilation Instructions:
 There is already `stonks.exe` which is an executable that has been compiled to the latest version, but if you want to compile yourself, use:
 
 `g++ stonks.cpp Game.cpp Player.cpp -o stonks`
@@ -16,8 +15,8 @@ There is already `stonks.exe` which is an executable that has been compiled to t
 
 and then run the program like any ordinary C++ program
 
-##Commands in-game
-The help menu will tell you everything you will need to know
+## Commands in-game
+The help menu will tell you everything you will need to know:
 
 ~~~
 You are a businessman who is trying to get lucky and become a millionaire by playing the stock market.
