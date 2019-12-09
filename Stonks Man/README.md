@@ -10,7 +10,7 @@
 ## Compilation Instructions:
 There is already `stonks.exe` which is an executable that has been compiled to the latest version, but if you want to compile yourself, use:
 
-`g++ stonks.cpp Game.cpp Player.cpp -o stonks`
+`g++ stonks.cpp -o stonks`
 
 
 and then run the program like any ordinary C++ program
